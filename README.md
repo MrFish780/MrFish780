@@ -808,6 +808,22 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
+	Name = "繁星Doors",
+	Callback = function()
+ 
+loadstring(game:HttpGet("https://pastebin.com/raw/Jm2du9WZ"))()
+  	end
+})
+
+Tab:AddButton({
+	Name = "最强Doors",
+	Callback = function()
+ 
+loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+  	end
+})
+
+Tab:AddButton({
 	Name = "门绘图显示",
 	Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/doors1"))()
