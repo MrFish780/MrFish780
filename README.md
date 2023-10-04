@@ -198,7 +198,7 @@ Tab:AddButton({
 
 Tab:AddButton({
 	Name = "无敌模式（别人可见）",
- 	Callback = function()
+	Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/jianyu4"))()
   	end
 })
@@ -812,110 +812,6 @@ Tab:AddButton({
         local CurrentDoor = workspace.CurrentRooms[tostring(LatestRoom+1)]:WaitForChild("Door")
         game.Players.LocalPlayer.Character:PivotTo(CF(CurrentDoor.Door.Position))
   	end    
-})
-
-local Tab = Window:MakeTab({
-    Name = "DOORS",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "微山DOORS",
-	Callback = function()
-loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\117\72\72\112\56\102\122\83"))()
-  	end
-})
-
-Tab:AddButton({
-	Name = "kingHub(已更新)",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKing%20Doors%20Mobile"))()
-  	end
-})
-
-Tab:AddButton({
-  Name = "门绘图显示",
-  Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/doors1"))()
-  end
-})
-
-Tab:AddButton({
-	Name = "手电筒（没电会有bug）",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Normal%20Flashlight"))()
-end
-})      
-
-Tab:AddButton({
-  Name = "DOORS低回拉穿墙",
-  Callback = function()
-    loadstring(game:HttpGet("https://github.com/DXuwu/OK/raw/main/clip"))()
-  end
-})
-
-Tab:AddButton({
-  Name = "刷怪菜单",
-  Callback = function ()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/cbhlyy/lyycbh/main/shuaguai"))()
-  end
-})
-
-Tab:AddButton({
-	Name = "DOORS变身脚本",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))();
-end
-}) 
-
-Tab:AddButton({
-	Name = "不可能模式",
-	Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ukazix/impossible-mode/main/Protected_79.lua.txt'))()
-  	end
-})
-
-Tab:AddButton({
-	Name = "Endless模式",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/worldcuuuup/main/Script.lua"))()
-  	end
-})
-
-Tab:AddButton({
-	Name = "物品复制枪",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/EverythingGunByNeRD.lua"))()
-  	end
-})
-
-Tab:AddButton({
-	Name = "控制物品大小枪",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/SizeChangerByNerd.lua"))()
-  	end
-})
-
-Tab:AddButton({
-	Name = "香蕉枪(可在困难模式发射香蕉)",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/BananaGunByNerd.lua"))()
-  	end
-})
-
-Tab:AddButton({
-	Name = "手持臭猫",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Maxwell%20Plushie"))()
-  	end
-})
-
-Tab:AddButton({
-	Name = "磁铁",
-	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/MagnetByNerd.lua"))()
-  	end
 })
 
 local Tab = Window:MakeTab({
